@@ -25,26 +25,28 @@ export const Thesis = () => {
   ];
 
   return (
-    <div id="thesis-section" className="py-20 bg-gray-50">
+    <div id="thesis-section" className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-yaf-blue animate-fadeIn">
+        <h2 className="text-3xl font-bold text-center mb-8 text-yaf-blue animate-fadeIn">
           Our Investment Thesis
         </h2>
 
-        <div className="max-w-4xl mx-auto space-y-12">
+        <div className="max-w-4xl mx-auto space-y-8">
           {sections.map((section, index) => (
-            <div 
+            <Card 
               key={index}
-              className="animate-fadeIn"
+              className="animate-fadeIn shadow-sm hover:shadow-md transition-shadow"
               style={{ animationDelay: `${index * 200}ms` }}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-yaf-blue">
-                {section.title}
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                {section.content}
-              </p>
-            </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-3 text-yaf-blue">
+                  {section.title}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  {section.content}
+                </p>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>
