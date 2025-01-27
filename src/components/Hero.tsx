@@ -16,7 +16,7 @@ export const Hero = () => {
           </Button>
           <Button 
             variant="outline" 
-            className="px-8 py-6 text-lg border-white text-white hover:bg-white hover:text-yaf-blue"
+            className="px-8 py-6 text-lg border-2 border-white text-white hover:bg-white hover:text-yaf-blue"
           >
             Submit Your Startup
           </Button>
