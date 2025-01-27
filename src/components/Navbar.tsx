@@ -18,7 +18,7 @@ export const Navbar = () => {
             variant="ghost" 
             onClick={() => navigate("/thesis")}
           >
-            Thesis
+            Our Thesis
           </Button>
         </div>
       </div>

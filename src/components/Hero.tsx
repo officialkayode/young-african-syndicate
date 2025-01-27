@@ -18,16 +18,16 @@ export const Hero = () => {
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
           Fueling African Startups, Delivering Impactful Returns.
         </p>
-        <div className="space-x-4">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:space-x-4">
           <Button 
-            className="bg-yaf-orange hover:bg-yaf-orange/90 text-white px-8 py-6 text-lg"
+            className="bg-yaf-orange hover:bg-yaf-orange/90 text-white px-8 py-6 text-lg w-full md:w-auto"
             onClick={handleInvestorSubmit}
           >
             Join as Investor
           </Button>
           <Button 
             variant="outline" 
-            className="px-8 py-6 text-lg bg-yaf-blue hover:bg-yaf-blue/90 text-white"
+            className="px-8 py-6 text-lg bg-yaf-blue hover:bg-yaf-blue/90 text-white w-full md:w-auto"
             onClick={handleStartupSubmit}
           >
             Submit Your Startup
