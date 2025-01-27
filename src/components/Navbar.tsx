@@ -20,7 +20,6 @@ export const Navbar = () => {
           >
             Thesis
           </Button>
-          <Button className="bg-yaf-blue hover:bg-yaf-blue/90">Join Now</Button>
         </div>
       </div>
     </nav>
