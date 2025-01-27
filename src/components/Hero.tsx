@@ -5,6 +5,10 @@ export const Hero = () => {
     window.open("https://tally.so/r/mR8NY4", "_blank");
   };
 
+  const handleInvestorSubmit = () => {
+    window.open("https://tally.so/r/m6rlkN", "_blank");
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-yaf-blue to-yaf-brown/80 text-white">
       <div className="container mx-auto px-4 py-20 text-center animate-fadeIn">
@@ -15,7 +19,10 @@ export const Hero = () => {
           Fueling African Startups, Delivering Impactful Returns.
         </p>
         <div className="space-x-4">
-          <Button className="bg-yaf-orange hover:bg-yaf-orange/90 text-white px-8 py-6 text-lg">
+          <Button 
+            className="bg-yaf-orange hover:bg-yaf-orange/90 text-white px-8 py-6 text-lg"
+            onClick={handleInvestorSubmit}
+          >
             Join as Investor
           </Button>
           <Button 
