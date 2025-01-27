@@ -25,7 +25,7 @@ export const Thesis = () => {
   ];
 
   return (
-    <div id="thesis-section" className="py-12 bg-gray-50">
+    <div id="thesis-section" className="pt-24 pb-12 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-yaf-blue animate-fadeIn">
           Our Investment Thesis
