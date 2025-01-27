@@ -14,7 +14,10 @@ export const Hero = () => {
           <Button className="bg-yaf-orange hover:bg-yaf-orange/90 text-white px-8 py-6 text-lg">
             Join as Investor
           </Button>
-          <Button variant="outline" className="px-8 py-6 text-lg">
+          <Button 
+            variant="outline" 
+            className="px-8 py-6 text-lg border-white text-white hover:bg-white hover:text-yaf-blue"
+          >
             Submit Your Startup
           </Button>
         </div>
