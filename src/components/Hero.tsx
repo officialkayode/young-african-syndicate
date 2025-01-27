@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
+  const handleStartupSubmit = () => {
+    window.open("https://tally.so/r/mR8NY4", "_blank");
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-yaf-blue to-yaf-brown/80 text-white">
       <div className="container mx-auto px-4 py-20 text-center animate-fadeIn">
@@ -16,7 +20,8 @@ export const Hero = () => {
           </Button>
           <Button 
             variant="outline" 
-            className="px-8 py-6 text-lg border-2 border-white text-yaf-blue hover:bg-white hover:text-yaf-blue"
+            className="px-8 py-6 text-lg border-2 border-white text-white hover:bg-white hover:text-yaf-blue"
+            onClick={handleStartupSubmit}
           >
             Submit Your Startup
           </Button>

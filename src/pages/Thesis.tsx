@@ -4,21 +4,6 @@ import { Check } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const ThesisPage = () => {
-  const points = [
-    {
-      title: "Focused on Africa's Potential",
-      description: "We believe in Africa's startups as the driving force behind the continent's economic transformation.",
-    },
-    {
-      title: "Solving Real Problems",
-      description: "Invest in startups solving real challenges in key sectors—infrastructure, energy, logistics, and agriculture.",
-    },
-    {
-      title: "Backed by Data and Expertise",
-      description: "We combine deep market insights, strong networks, and robust due diligence processes.",
-    },
-  ];
-
   const sections = [
     {
       title: "Our Thesis",
@@ -50,29 +35,13 @@ const ThesisPage = () => {
           <h2 className="text-4xl font-bold text-center mb-12 text-yaf-blue animate-fadeIn">
             Our Investment Thesis
           </h2>
-          
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {points.map((point, index) => (
-              <Card 
-                key={index} 
-                className="hover:shadow-lg transition-shadow animate-fadeIn"
-                style={{ animationDelay: `${index * 200}ms` }}
-              >
-                <CardContent className="p-6">
-                  <Check className="w-8 h-8 text-yaf-orange mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">{point.title}</h3>
-                  <p className="text-gray-600">{point.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
 
           <div className="max-w-4xl mx-auto space-y-12">
             {sections.map((section, index) => (
               <div 
                 key={index}
                 className="animate-fadeIn"
-                style={{ animationDelay: `${(index + 3) * 200}ms` }}
+                style={{ animationDelay: `${index * 200}ms` }}
               >
                 <h3 className="text-2xl font-semibold mb-4 text-yaf-blue">
                   {section.title}
