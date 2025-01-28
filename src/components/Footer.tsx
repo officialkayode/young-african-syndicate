@@ -19,10 +19,9 @@ export const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
+            <h4 className="font-semibold mb-4">Location</h4>
             <ul className="space-y-2">
-              <li className="text-gray-300">info@yaf.com</li>
-              <li className="text-gray-300">Lagos, Nigeria</li>
+              <li className="text-gray-300">San Francisco, USA</li>
             </ul>
           </div>
         </div>
