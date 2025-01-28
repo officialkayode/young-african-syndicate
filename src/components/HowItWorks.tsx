@@ -39,11 +39,11 @@ export const HowItWorks = () => {
                   </li>
                 ))}
               </ul>
-              <Link to="https://airtable.com/appF9OEZYxWyHXiWe/shrEd8uGX6SXQs6sG">
+              <a href="https://tally.so/r/m6rlkN" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full mt-6 bg-yaf-blue hover:bg-yaf-blue/90">
                   Join Now
                 </Button>
-              </Link>
+              </a>
             </CardContent>
           </Card>
           <Card>
