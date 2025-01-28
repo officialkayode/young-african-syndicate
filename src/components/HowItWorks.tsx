@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export const HowItWorks = () => {
   const investorSteps = [
@@ -38,9 +39,11 @@ export const HowItWorks = () => {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full mt-6 bg-yaf-blue hover:bg-yaf-blue/90">
-                Join Now
-              </Button>
+              <Link to="https://airtable.com/appF9OEZYxWyHXiWe/shrEd8uGX6SXQs6sG">
+                <Button className="w-full mt-6 bg-yaf-blue hover:bg-yaf-blue/90">
+                  Join Now
+                </Button>
+              </Link>
             </CardContent>
           </Card>
           <Card>
