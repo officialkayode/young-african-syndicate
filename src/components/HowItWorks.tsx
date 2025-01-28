@@ -61,9 +61,11 @@ export const HowItWorks = () => {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full mt-6 bg-yaf-brown hover:bg-yaf-brown/90">
-                Submit Your Deck
-              </Button>
+              <Link to="https://tally.so/r/mR8NY4">
+                <Button className="w-full mt-6 bg-yaf-brown hover:bg-yaf-brown/90">
+                  Submit Your Deck
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         </div>
